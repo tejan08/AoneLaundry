@@ -27,7 +27,7 @@
 				<header>
 					<div class="main">
 						<ul>
-							<li> <a href="home.php">index</a></li>
+							<li> <a href="index.html">index</a></li>
 							<li> <a href="pricelist.php">Price List</a></li>
 							<li class="active"> <a href="order.php">Place an order</a></li>
 							<li> <a href="Contact.php">Contact</a></li>
