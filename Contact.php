@@ -14,7 +14,7 @@
 
 						<div class="main">
 							<ul>
-								<li ><a href="index.php">Home</a></li>
+								<li ><a href="index.html">Home</a></li>
 								<li><a href="pricelist.php">Price List</a></li>
 								<li><a href="order.php">Place order</a></li>
 								<li class="active"><a href="Contact.php">Contact</a></li>
