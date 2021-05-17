@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	background-color: #eceaea;
+}
+
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 25px;	
+	padding-top: 20px;
+}
+
+ul li{
+	display: inline-block;
+	font-size: 18px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}  
+
+ul li a:hover{
+	color:#fff;
+}
+
+ul li.active a{
+	color: red;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+header{
+	height: 60vh;
+	background-repeat: no-repeat;
+	background-size: 20% 45%;
+	background-position: left;	
+}
+
+.clothes_container{
+	padding-top: 100px;
+	display: block;
+	width: 100%;
+}
+
+.clothes_container{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+.clothImg{
+	display: flex;
+	flex-direction: column;
+}
+
+.priceImg{
+	width: 250px;
+	height: 260px;
+	background-size: cover;
+}
+
+span{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hr_line{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+@media only screen and (max-width: 1081px)
+{
+
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: Century Gothic;
+		background-color: #eceaea;
+	}
+	
+	ul{
+		position: absolute;
+		left: 1%;
+		list-style: none;
+		margin-top: 25px;	
+	}
+	
+	ul li{
+		display: inline-block;
+		font-size: 48px;
+
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: black;
+		
+		border: 1px solid transparent;
+		transition: 0.6s ease;
+	}  
+	
+	ul li a:hover{
+		color:#fff;
+	}
+	
+	ul li.active a{
+		color: red;
+	}
+	
+	
+	.clothes_container{
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 1%;
+		top: 100px;
+	
+		
+	}
+	.clothImg{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.priceImg{
+		width: 500px;
+		height: 500px;
+		background-size: cover;
+		padding-bottom: 150px;
+	}
+	
+	span{
+		display: flex;
+		justify-content: space-between;
+		
+	}
+	
+	.hr_line{
+		border: 0;
+		height: 1px;
+		background: #333;
+		background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	}
+
+	
+	.siz{
+		font-size: 40px;
+		
+	}
+}
